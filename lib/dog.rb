@@ -1,13 +1,8 @@
 class Dog
 
-  def initialize(name, breed)
+  def initialize(name, breed="Mutt")
     @name = name
-    @breed.each do |breed|
-      if breed = breed
-        puts @breed
-
-      else
-        "Mutt"
+    @breed = breed
   end
 
   def name=(name)
